@@ -16,7 +16,7 @@ pipeline {
                     docker build -t codingcat19/notes-app:latest .
                     echo "Docker image built successfully: codingcat19/notes-app:latest"
                     '''
-                    echo "Build Complete!"
+                    echo "Build Complete!!"
                 }
             }
         }
