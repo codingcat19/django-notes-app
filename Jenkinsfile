@@ -33,9 +33,7 @@ pipeline {
 
         stage("Push to dockerhub") {
             steps {
-                success {
-                    sh "/usr/local/bin/docker push codingcat19/notes-app:latest"
-                }
+                sh "/usr/local/bin/docker push codingcat19/notes-app:latest"
             }
         }
     }
